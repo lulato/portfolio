@@ -1,0 +1,30 @@
+body {
+  font-family: "Lora";
+}
+
+.container {
+  width: 84vw;
+  display: flex;
+  max-width: 1150px;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+section {
+  padding: calc(7vw + 6vh) 0;
+  overflow: hidden;
+}
+
+#project-1 {
+  background: lightblue;
+}
+
+#project-1 .left {
+  max-width: 490px;
+  padding-right: 60px;
+}
+
+#project-1 .right {
+  width: 65%;
+}
